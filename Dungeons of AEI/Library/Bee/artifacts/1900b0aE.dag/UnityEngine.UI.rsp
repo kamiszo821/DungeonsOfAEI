@@ -112,6 +112,7 @@
 -define:ENABLE_TERRAIN
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
+-define:ENABLE_INPUT_SYSTEM
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:PACKAGE_PHYSICS
@@ -121,6 +122,10 @@
 -define:PACKAGE_UITOOLKIT
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"C:/Users/Krzysio/Desktop/DungeonsOfAEI/Dungeons of AEI/Library/PackageCache/com.unity.burst@1.8.2/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll"
+-r:"C:/Users/Krzysio/Desktop/DungeonsOfAEI/Dungeons of AEI/Library/PackageCache/com.unity.burst@1.8.2/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll"
+-r:"C:/Users/Krzysio/Desktop/DungeonsOfAEI/Dungeons of AEI/Library/PackageCache/com.unity.burst@1.8.2/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll"
+-r:"C:/Users/Krzysio/Desktop/DungeonsOfAEI/Dungeons of AEI/Library/PackageCache/com.unity.burst@1.8.2/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll"
 -r:"C:/Users/Krzysio/Desktop/DungeonsOfAEI/Dungeons of AEI/Library/PackageCache/com.unity.collab-proxy@2.0.1/Lib/Editor/PlasticSCM/log4netPlastic.dll"
 -r:"C:/Users/Krzysio/Desktop/DungeonsOfAEI/Dungeons of AEI/Library/PackageCache/com.unity.collab-proxy@2.0.1/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
 -r:"C:/Users/Krzysio/Desktop/DungeonsOfAEI/Dungeons of AEI/Library/PackageCache/com.unity.collab-proxy@2.0.1/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
@@ -337,6 +342,8 @@
 -r:"E:/Unity/2021.3.21f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
 -r:"E:/Unity/2021.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll"
 -r:"E:/Unity/2021.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
+"Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Editor/ShaderGUI/MaterialAssemblyReference/RawRenderQueue.cs"
+"Library/PackageCache/com.unity.shadergraph@12.1.10/Editor/Generation/Targets/BuiltIn/Editor/ShaderGUI/MaterialAssemblyReference/RawRenderQueue.cs"
 "Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventData/AxisEventData.cs"
 "Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventData/BaseEventData.cs"
 "Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventData/PointerEventData.cs"
