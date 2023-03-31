@@ -371,6 +371,8 @@
 "Assets/BrokenVector/LowPolyDungeon/Demo Scenes/MouseCamLook.cs"
 "Assets/BrokenVector/LowPolyDungeon/Demo Scenes/PlayerMovement.cs"
 "Assets/BrokenVector/LowPolyDungeon/Demo Scenes/ScreenshotMaker.cs"
+"Assets/Scripts/Opening Gates Scripts/Opening_Gate.cs"
+"Assets/Scripts/Opening Gates Scripts/Slab_Activator.cs"
 "Assets/StarterAssets/FirstPersonController/Scripts/BasicRigidBodyPush.cs"
 "Assets/StarterAssets/FirstPersonController/Scripts/FirstPersonController.cs"
 "Assets/StarterAssets/InputSystem/StarterAssetsInputs.cs"

@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.21f1 (1b156197d683) revision 1774945'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Education' Language: 'pl' Physical Memory: 32673 MB
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'pl' Physical Memory: 8044 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-E:\Unity\2021.3.21f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2021.3.21f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Krzysio/Desktop/DungeonsOfAEI/Dungeons of AEI
+C:/Users/pbeni/Desktop/Grafika projekt/DungeonsOfAEI/Dungeons of AEI
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52873
-Successfully changed project path to: C:/Users/Krzysio/Desktop/DungeonsOfAEI/Dungeons of AEI
-C:/Users/Krzysio/Desktop/DungeonsOfAEI/Dungeons of AEI
+62286
+Successfully changed project path to: C:/Users/pbeni/Desktop/Grafika projekt/DungeonsOfAEI/Dungeons of AEI
+C:/Users/pbeni/Desktop/Grafika projekt/DungeonsOfAEI/Dungeons of AEI
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,112 +47,109 @@ C:/Users/Krzysio/Desktop/DungeonsOfAEI/Dungeons of AEI
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [1296] Host "[IP] 192.168.1.2 [Port] 0 [Flags] 2 [Guid] 1352443361 [EditorId] 1352443361 [Version] 1048832 [Id] WindowsEditor(7,Krzyœ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [19140] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 510277216 [EditorId] 510277216 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-0N9E9JTF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [1296] Host "[IP] 192.168.1.2 [Port] 0 [Flags] 2 [Guid] 1352443361 [EditorId] 1352443361 [Version] 1048832 [Id] WindowsEditor(7,Krzyœ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [19140] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 510277216 [EditorId] 510277216 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-0N9E9JTF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 104.37 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 242.37 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.21f1 (1b156197d683)
-[Subsystems] Discovering subsystems at path E:/Unity/2021.3.21f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Krzysio/Desktop/DungeonsOfAEI/Dungeons of AEI/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/pbeni/Desktop/Grafika projekt/DungeonsOfAEI/Dungeons of AEI/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon RX 6800 XT (ID=0x73bf)
-    Vendor:   ATI
-    VRAM:     16338 MB
-    Driver:   31.0.14037.1007
+    Renderer: NVIDIA GeForce MX250 (ID=0x1d13)
+    Vendor:   NVIDIA
+    VRAM:     1983 MB
+    Driver:   30.0.15.1169
 Initialize mono
-Mono path[0] = 'E:/Unity/2021.3.21f1/Editor/Data/Managed'
-Mono path[1] = 'E:/Unity/2021.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'E:/Unity/2021.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56604
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56352
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: E:/Unity/2021.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: E:/Unity/2021.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003432 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.012197 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 101.74 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 228.87 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.674 seconds
+- Completed reload, in  1.614 seconds
 Domain Reload Profiling:
-	ReloadAssembly (675ms)
-		BeginReloadAssembly (85ms)
+	ReloadAssembly (1615ms)
+		BeginReloadAssembly (494ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (482ms)
-			LoadAssemblies (84ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (886ms)
+			LoadAssemblies (279ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (114ms)
+			SetupTypeCache (190ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (291ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (565ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (102ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (140ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
+				RefreshPlugins (229ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (238ms)
+				ProcessInitializeOnLoadMethodAttributes (82ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006531 seconds.
+Registered in 0.018703 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Krzysio\Desktop\DungeonsOfAEI\Dungeons of AEI\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Krzysio\Desktop\DungeonsOfAEI\Dungeons of AEI\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\pbeni\Desktop\Grafika projekt\DungeonsOfAEI\Dungeons of AEI\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\pbeni\Desktop\Grafika projekt\DungeonsOfAEI\Dungeons of AEI\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 105.32 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 335.44 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.229 seconds
+- Completed reload, in  4.109 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1230ms)
-		BeginReloadAssembly (103ms)
+	ReloadAssembly (4110ms)
+		BeginReloadAssembly (627ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (16ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (1036ms)
-			LoadAssemblies (91ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (2983ms)
+			LoadAssemblies (617ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (283ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (574ms)
+			SetupTypeCache (753ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (206ms)
+			SetupLoadedEditorAssemblies (1506ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (105ms)
-				BeforeProcessingInitializeOnLoad (104ms)
-				ProcessInitializeOnLoadAttributes (290ms)
-				ProcessInitializeOnLoadMethodAttributes (68ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				RefreshPlugins (336ms)
+				BeforeProcessingInitializeOnLoad (313ms)
+				ProcessInitializeOnLoadAttributes (704ms)
+				ProcessInitializeOnLoadMethodAttributes (121ms)
+				AfterProcessingInitializeOnLoad (16ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.86 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5304 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (0.8 MB). Loaded Objects now: 5756.
-Memory consumption went from 210.7 MB to 209.8 MB.
-Total: 3.941300 ms (FindLiveObjects: 0.346300 ms CreateObjectMapping: 0.141900 ms MarkObjects: 2.929100 ms  DeleteObjects: 0.523200 ms)
+Unloading 5309 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (85.5 MB). Loaded Objects now: 5761.
+Memory consumption went from 211.0 MB to 125.5 MB.
+Total: 15.381700 ms (FindLiveObjects: 1.053100 ms CreateObjectMapping: 0.782100 ms MarkObjects: 10.654600 ms  DeleteObjects: 2.890400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -164,3 +161,85 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 26559.141265 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Jar_Big.fbx
+  artifactKey: Guid(b7e1480ce257ecf43ab1570081afc3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Jar_Big.fbx using Guid(b7e1480ce257ecf43ab1570081afc3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56c6407d87060bd714a80d4818e6064b') in 0.512363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Jug.fbx
+  artifactKey: Guid(0a2618eaf865fb249b3ac4d9a5790629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Jug.fbx using Guid(0a2618eaf865fb249b3ac4d9a5790629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5b4a51dd8ec7db69186dbaadbd3d713') in 0.097870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Holefix_Double_col.fbx
+  artifactKey: Guid(00d734cc13fd38c4a93c8dd9660538d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Holefix_Double_col.fbx using Guid(00d734cc13fd38c4a93c8dd9660538d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc088a49efd0e8351f804c981e46ce36') in 0.038440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/HoleFix_Half_col.fbx
+  artifactKey: Guid(d10dee1890bc18549ba9de097ee3f83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/HoleFix_Half_col.fbx using Guid(d10dee1890bc18549ba9de097ee3f83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d5d3295ab4f1275a919ebfd13f7b69') in 0.064247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002673 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Ivy_Leaf.fbx
+  artifactKey: Guid(63909009afc9c704591595c2ef356487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Ivy_Leaf.fbx using Guid(63909009afc9c704591595c2ef356487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93084a2ed6efb027cf0f9f00f86b0785') in 0.035301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Models/99_Enviroment_Doors.fbx
+  artifactKey: Guid(65536e910924dd84cbb1310ea1cdd100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Models/99_Enviroment_Doors.fbx using Guid(65536e910924dd84cbb1310ea1cdd100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1621ac1d687c496879a429ed9c71cee5') in 0.570592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000596 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Tiles/HoleFix_Half.fbx
+  artifactKey: Guid(732bac3878c7504449205c7bffbc0d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Tiles/HoleFix_Half.fbx using Guid(732bac3878c7504449205c7bffbc0d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23998bd8d26aa8fc4b469b2cc957cf95') in 0.053339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Jar_Full.fbx
+  artifactKey: Guid(c0469cdae04acd04a848fec5a569effb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Jar_Full.fbx using Guid(c0469cdae04acd04a848fec5a569effb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbecfcf29bb7f4b9a96bcaf1553df55e') in 0.048571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Ivy_Branch.fbx
+  artifactKey: Guid(72c499c22acd8d242bb45e122ec43fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Ivy_Branch.fbx using Guid(72c499c22acd8d242bb45e122ec43fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe07e738517f5b17eff1e55ae0f81a0d') in 0.058353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Holefix_Single.fbx
+  artifactKey: Guid(6f299c6c72875e64ba2b937acdb19287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Holefix_Single.fbx using Guid(6f299c6c72875e64ba2b937acdb19287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dbdf378c33eb141428ceaa7ea4a27f3') in 0.070714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Key_Golden.fbx
+  artifactKey: Guid(ba63f90d8844c4f4995e182266e20c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Key_Golden.fbx using Guid(ba63f90d8844c4f4995e182266e20c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e85f7c3fb0c3b83aa5164339c76784f3') in 0.054169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Hallway_toStaircase_Bottom.fbx
+  artifactKey: Guid(d1cec78074a250041adbcfd9616b1a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Hallway_toStaircase_Bottom.fbx using Guid(d1cec78074a250041adbcfd9616b1a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2965f60fccdbaecb056caf9d8c7c77d') in 0.042507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Hallway_TCrossing.fbx
+  artifactKey: Guid(d68104bcc3c497440a2cb8a67c7295ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Hallway_TCrossing.fbx using Guid(d68104bcc3c497440a2cb8a67c7295ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '790598a95dc4058855425556a0f33110') in 0.046563 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
