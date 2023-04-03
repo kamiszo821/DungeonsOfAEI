@@ -10,20 +10,6 @@ public class Opening_Gate : MonoBehaviour
     private float beginPos;
 
 
-    // Start is called before the first frame update
-    void Start()
-    {
-
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        // closeGate();
-    }
-    // Y: 0.35
-    // Yk: -2.8
 
     private void Awake()
     {
@@ -31,13 +17,11 @@ public class Opening_Gate : MonoBehaviour
     }
 
 
-
     private void OnEnable()
     {
         Slab_Activator.sendinfo += startClosingGate;
 
     }
-
     private void OnDisable()
     {
         Slab_Activator.sendinfo -= startClosingGate;
@@ -56,13 +40,10 @@ public class Opening_Gate : MonoBehaviour
         Debug.Log(beginPos);
         while (transform.position.y >= beginPos - 3)
         {
-            transform.position += new Vector3(0f, -0.2f, 0f) * Time.deltaTime;
+            transform.position += new Vector3(0f, -0.8f, 0f) * Time.deltaTime;
+            Debug.Log(transform.position);
             yield return new WaitForSeconds(0f);
         }
-
-
-
-
 
     }
 }
