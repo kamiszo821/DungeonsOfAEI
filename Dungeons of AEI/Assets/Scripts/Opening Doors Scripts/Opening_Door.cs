@@ -6,8 +6,8 @@ public class Opening_Door : MonoBehaviour
 {
     [SerializeField]
     private bool isBlocked = false; //if false, player can open it with collison
-    private bool alreadyOpened = false;
 
+    private bool alreadyOpened = false;
     private string PLAYER_TAG = "Player";
 
     public void OnTriggerStay(Collider collider)
