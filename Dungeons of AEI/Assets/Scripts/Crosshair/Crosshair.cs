@@ -6,11 +6,11 @@ public class Crosshair : MonoBehaviour
 {
     [SerializeField]
     private Texture2D image;
+    private Texture2D noImage;
 
-    void Update()
+    void Start()
     {
         Screen.lockCursor = true;
-
     }
 
     void OnGUI()
