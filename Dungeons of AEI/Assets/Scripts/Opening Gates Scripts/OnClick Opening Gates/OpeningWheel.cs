@@ -6,9 +6,11 @@ using UnityEngine;
 public class OpeningWheel : MonoBehaviour
 {
 
-    public delegate void activateDelegate();
+    public delegate void activateDelegate(int id);
     public static event activateDelegate sendinfoWheel;
 
+    [SerializeField]
+    private int gateID=0;
 
     [SerializeField]
     private GameObject PlayerObject;
@@ -18,11 +20,12 @@ public class OpeningWheel : MonoBehaviour
 
     private bool animationActive = false;
 
+
     void activate()
     {
         if (sendinfoWheel != null)
         {
-            sendinfoWheel();
+            sendinfoWheel(gateID);
         }
     }
 
