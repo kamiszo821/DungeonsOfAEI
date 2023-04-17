@@ -12,6 +12,8 @@ public class OpeningGateByClick : MonoBehaviour
     [SerializeField]
     private float endPos = 3;
 
+    [SerializeField]
+    private int gateID; // Serialized field for the unique ID of the gate
 
     private void Awake()
     {
@@ -29,9 +31,9 @@ public class OpeningGateByClick : MonoBehaviour
         OpeningWheel.sendinfoWheel -= startClosingGate;
     }
 
-    private void startClosingGate()
+    private void startClosingGate(int id)
     {
-        if (isopened == false)
+        if (!isopened && this.gateID == id)
             StartCoroutine(closeGate());
     }
 

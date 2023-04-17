@@ -7,9 +7,11 @@ public class Slab_Activator : MonoBehaviour
 
     private string PLAYER_TAG = "Player";
 
-    public delegate void activateDelegate();
+    public delegate void activateDelegate(int id);
     public static event activateDelegate sendinfo;
 
+    [SerializeField]
+    private int gateID = 0;
 
     public void OnTriggerStay(Collider collider)
     {
@@ -25,7 +27,7 @@ public class Slab_Activator : MonoBehaviour
     {
         if (sendinfo != null)
         {
-            sendinfo();
+            sendinfo(gateID);
         }
     }
 

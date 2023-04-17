@@ -10,6 +10,9 @@ public class Opening_Gate : MonoBehaviour
     [SerializeField]
     private float endPos = 3;
 
+    [SerializeField]
+    private int gateID;
+
     private float beginPos;
 
     private void Awake()
@@ -27,9 +30,9 @@ public class Opening_Gate : MonoBehaviour
         Slab_Activator.sendinfo -= startClosingGate;
     }
 
-    private void startClosingGate()
+    private void startClosingGate(int id)
     {
-        if (isopened == false)
+        if (!isopened && this.gateID == id)
             StartCoroutine(closeGate());
     }
 
