@@ -1,0 +1,563 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.21f1 (1b156197d683) revision 1774945'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'pl' Physical Memory: 8044 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/pbeni/source/repos/DungeonsOfAEI/Dungeons of AEI
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+53115
+Successfully changed project path to: C:/Users/pbeni/source/repos/DungeonsOfAEI/Dungeons of AEI
+C:/Users/pbeni/source/repos/DungeonsOfAEI/Dungeons of AEI
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [24788] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1864608036 [EditorId] 1864608036 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-0N9E9JTF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [24788] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1864608036 [EditorId] 1864608036 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-0N9E9JTF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 162.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.21f1 (1b156197d683)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/pbeni/source/repos/DungeonsOfAEI/Dungeons of AEI/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce MX250 (ID=0x1d13)
+    Vendor:   NVIDIA
+    VRAM:     1983 MB
+    Driver:   30.0.15.1169
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56332
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.013176 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 150.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.037 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1038ms)
+		BeginReloadAssembly (155ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (749ms)
+			LoadAssemblies (152ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (237ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (413ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (151ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (184ms)
+				ProcessInitializeOnLoadMethodAttributes (65ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.025409 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\pbeni\source\repos\DungeonsOfAEI\Dungeons of AEI\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\pbeni\source\repos\DungeonsOfAEI\Dungeons of AEI\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 146.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.720 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2722ms)
+		BeginReloadAssembly (175ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (2373ms)
+			LoadAssemblies (225ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (491ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (130ms)
+			SetupLoadedEditorAssemblies (1486ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (147ms)
+				BeforeProcessingInitializeOnLoad (147ms)
+				ProcessInitializeOnLoadAttributes (850ms)
+				ProcessInitializeOnLoadMethodAttributes (312ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (4ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5316 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (0.8 MB). Loaded Objects now: 5769.
+Memory consumption went from 211.2 MB to 210.3 MB.
+Total: 4.561100 ms (FindLiveObjects: 0.669700 ms CreateObjectMapping: 0.593400 ms MarkObjects: 2.936800 ms  DeleteObjects: 0.360000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 102402.574272 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Materials
+  artifactKey: Guid(78ac16cfa29e3db45a518152dd9ae685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Materials using Guid(78ac16cfa29e3db45a518152dd9ae685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '245ff63a8231a88e89a58c1fda23cb96') in 0.019250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.505960 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Prefabs/01_DiningHall_01_Bottle#1.prefab
+  artifactKey: Guid(7587bd0edf0376344ac9bc85565f8c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Prefabs/01_DiningHall_01_Bottle#1.prefab using Guid(7587bd0edf0376344ac9bc85565f8c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abf60af65aaa3b8b64eb3f8362d18130') in 0.432935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Prefabs/01_DiningHall_01_Bowl#2.prefab
+  artifactKey: Guid(537fca49233300e4c9196e5a7fab121b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Prefabs/01_DiningHall_01_Bowl#2.prefab using Guid(537fca49233300e4c9196e5a7fab121b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d4ad7662f7c997a800cb6d6add451d4') in 0.044431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001449 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Prefabs/02_Kitchen_01_CuttingBoard#2.prefab
+  artifactKey: Guid(3b4da24dd8e66214c9d50248a0effe83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Prefabs/02_Kitchen_01_CuttingBoard#2.prefab using Guid(3b4da24dd8e66214c9d50248a0effe83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b7b045039933c389907ca575987cd3f') in 0.091103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Prefabs/01_DiningHall_01_Cup#2.prefab
+  artifactKey: Guid(c64bf04713b5e0549b27844ba6bfc9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Prefabs/01_DiningHall_01_Cup#2.prefab using Guid(c64bf04713b5e0549b27844ba6bfc9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e1fe461456dc9a2c27446c69a3ed79e') in 0.033775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Prefabs/01_Library_01_BigBook#2.prefab
+  artifactKey: Guid(ea1ae5b942b07ec4f8711a685f84ca24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Prefabs/01_Library_01_BigBook#2.prefab using Guid(ea1ae5b942b07ec4f8711a685f84ca24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eca3b43f251de492f0241e18844f4339') in 0.030820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Prefabs/01_Library_01_BookSmall_Red.prefab
+  artifactKey: Guid(617d2e0fb14387b4799c14f966e47054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Prefabs/01_Library_01_BookSmall_Red.prefab using Guid(617d2e0fb14387b4799c14f966e47054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94f11ee80388a4a17b73af44292ff272') in 0.029107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Prefabs/02_Kitchen_01_CookingPot#2.prefab
+  artifactKey: Guid(3e949684ea4f4744d8394630ed256f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Prefabs/02_Kitchen_01_CookingPot#2.prefab using Guid(3e949684ea4f4744d8394630ed256f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0834eafdada025b6d3b087c72a8d74b') in 0.028168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Prefabs/01_DiningHall_01_Cup#1.prefab
+  artifactKey: Guid(76439eb344aa1f8459ecde9f54affbef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Prefabs/01_DiningHall_01_Cup#1.prefab using Guid(76439eb344aa1f8459ecde9f54affbef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5efd19b5172b286bd0212f89bd362d64') in 0.037904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Prefabs/02_Kitchen_01_CookingPot#1.prefab
+  artifactKey: Guid(16dfe05c8ffa4d84681d7cd84ab17842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Prefabs/02_Kitchen_01_CookingPot#1.prefab using Guid(16dfe05c8ffa4d84681d7cd84ab17842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c5f5bdd689b70397e0ee4e3fe67678') in 0.065509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Prefabs/01_Library_01_InkWell#1.prefab
+  artifactKey: Guid(2f570eda51c25004f9aa924d657af75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Prefabs/01_Library_01_InkWell#1.prefab using Guid(2f570eda51c25004f9aa924d657af75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '276c28a9fc23755a8098d06eda9f8cf8') in 0.042036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Prefabs/01_DiningHall_01_Candels#1.prefab
+  artifactKey: Guid(842a752523ece6c4996c2c95378a4536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Prefabs/01_DiningHall_01_Candels#1.prefab using Guid(842a752523ece6c4996c2c95378a4536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48046fac714c8742d0ffe6e3279186d5') in 0.022398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.295014 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Prefabs/02_Kitchen_01_WoodenTable#2.prefab
+  artifactKey: Guid(337841c711a168941bad28c82c132574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Prefabs/02_Kitchen_01_WoodenTable#2.prefab using Guid(337841c711a168941bad28c82c132574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b988d90fb1e79e1b26c0b1affee492a') in 0.018447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Prefabs/03_Blacksmith_01_Forge.prefab
+  artifactKey: Guid(375aacc276d724f41b0baa76221478d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Prefabs/03_Blacksmith_01_Forge.prefab using Guid(375aacc276d724f41b0baa76221478d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa303dba0f2b28c5f4c0bca5b19fa1b8') in 0.070411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Prefabs/04_Bedroom_01_Matrace_ForBeed_1.prefab
+  artifactKey: Guid(1dba64d63b3ff9545af2152cc3320b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Prefabs/04_Bedroom_01_Matrace_ForBeed_1.prefab using Guid(1dba64d63b3ff9545af2152cc3320b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2f722e0f59f127d7ccb25c2e185b58f') in 0.027851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Prefabs/03_Blacksmith_01_CooperBar.prefab
+  artifactKey: Guid(d9c87df41475ca343b77b12b71160898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Prefabs/03_Blacksmith_01_CooperBar.prefab using Guid(d9c87df41475ca343b77b12b71160898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0ea33c556a236273d7abc1bb9f2248c') in 0.035251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Prefabs/04_Bedroom_01_Beed_4.prefab
+  artifactKey: Guid(3663fe85de2b3634e8ec440c8b8c3dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Prefabs/04_Bedroom_01_Beed_4.prefab using Guid(3663fe85de2b3634e8ec440c8b8c3dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e762f5bce5d0d604a2b6f28a3f71445b') in 0.040924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Prefabs/05_Vault_01_Coin#1.prefab
+  artifactKey: Guid(4296b59400a9273488a86c13f4600e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Prefabs/05_Vault_01_Coin#1.prefab using Guid(4296b59400a9273488a86c13f4600e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a87ef6b7ddeb4c61376826da99a1c2') in 0.035910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Prefabs/03_Blacksmith_01_Blower.prefab
+  artifactKey: Guid(a39dd3b8bbc8afd46aba5478c68d400c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Prefabs/03_Blacksmith_01_Blower.prefab using Guid(a39dd3b8bbc8afd46aba5478c68d400c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e38663662cc7134b42a4125b265ecdc') in 0.039709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Prefabs/03_Blacksmith_01_Hammer#2.prefab
+  artifactKey: Guid(d71513e356a6264478e901eb30867760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Prefabs/03_Blacksmith_01_Hammer#2.prefab using Guid(d71513e356a6264478e901eb30867760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e07f02342a2d222dc3abb79fa4ca87e5') in 0.037717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Prefabs/03_Blacksmith_01_GrindingWheel_Frame.prefab
+  artifactKey: Guid(53ae3832d83089f4abb4091017ba91f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Prefabs/03_Blacksmith_01_GrindingWheel_Frame.prefab using Guid(53ae3832d83089f4abb4091017ba91f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f557d58be9dd3c333ef38cd11acb76cf') in 0.027319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Prefabs/03_Blacksmith_01_GrindingWheel_Wheel.prefab
+  artifactKey: Guid(7bd3fc177c86cf84a8b27ba2398c2977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Prefabs/03_Blacksmith_01_GrindingWheel_Wheel.prefab using Guid(7bd3fc177c86cf84a8b27ba2398c2977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '958fa145413eec666871c35f28a2db88') in 0.030026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.093159 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Models/01_DiningHall_01_Bottle#1.fbx
+  artifactKey: Guid(821015a023bdd0c4f8c6e61b6586edb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Models/01_DiningHall_01_Bottle#1.fbx using Guid(821015a023bdd0c4f8c6e61b6586edb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76332d94b3d0f73dbab6e172d38b2727') in 0.143763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003218 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_CuttingBoard#2.fbx
+  artifactKey: Guid(833386d75d20afc47ae8848a6f445176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_CuttingBoard#2.fbx using Guid(833386d75d20afc47ae8848a6f445176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff3c6fabb536ea54fdcc42aef8e8ac1') in 0.067938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_CookingPot#3.fbx
+  artifactKey: Guid(7d1974cd9f00a6642becc6a9c5f9dd16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_CookingPot#3.fbx using Guid(7d1974cd9f00a6642becc6a9c5f9dd16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cf8d03038c9b10ba4d7bbce95844c2b') in 0.089323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Models/01_Library_01_Desk#1.fbx
+  artifactKey: Guid(c454e92f88d86214cb2e75fe02c580d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Models/01_Library_01_Desk#1.fbx using Guid(c454e92f88d86214cb2e75fe02c580d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '955f7963c224be329905dbedbcf6ec59') in 0.064966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Models/01_DiningHall_01_Bowl#1.fbx
+  artifactKey: Guid(c0ce8dbd0c29671469ad6feb59e4b12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Models/01_DiningHall_01_Bowl#1.fbx using Guid(c0ce8dbd0c29671469ad6feb59e4b12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd056cc5e3af1f256dd95fc37486cc382') in 0.067586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_CookingPot#2.fbx
+  artifactKey: Guid(20ac841c5eb778d488b5a88d44d1bbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_CookingPot#2.fbx using Guid(20ac841c5eb778d488b5a88d44d1bbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff5ee4187f48c83aa9c8204264db9e94') in 0.080089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Models/01_Library_01_Candle#1.fbx
+  artifactKey: Guid(99c532f0f6a3efd46a5c46e41a790c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Models/01_Library_01_Candle#1.fbx using Guid(99c532f0f6a3efd46a5c46e41a790c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd10cc473b7ca60ea5e075a74e29f28c7') in 0.028616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000567 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_CookingPot#1_Stander.fbx
+  artifactKey: Guid(af90d133d353ae4458d884c515f77053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_CookingPot#1_Stander.fbx using Guid(af90d133d353ae4458d884c515f77053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5240b67218e8809ca3d911b2f5c3779c') in 0.031280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_Chopper.fbx
+  artifactKey: Guid(21676d294d655b5478ce76c58d15f06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_Chopper.fbx using Guid(21676d294d655b5478ce76c58d15f06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7715230c9080676ee91a32253e00aefa') in 0.062047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Models/01_Library_01_Chear_High#1.fbx
+  artifactKey: Guid(e75b6260e4f60b74fa98347b1ee928ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Models/01_Library_01_Chear_High#1.fbx using Guid(e75b6260e4f60b74fa98347b1ee928ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ac4194e6ea7a43c72900b40e06e8130') in 0.028534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Models/01_DiningHall_01_Candels#1.fbx
+  artifactKey: Guid(cb7b9e29b7b4e7d4da921799a3fac130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Models/01_DiningHall_01_Candels#1.fbx using Guid(cb7b9e29b7b4e7d4da921799a3fac130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1732b315bf5ab32f2ea88ed2e636aec6') in 0.030374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Models/01_Library_01_BookShelve_2.fbx
+  artifactKey: Guid(1caaa2aae7d235c4fabf6f775e5868ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Models/01_Library_01_BookShelve_2.fbx using Guid(1caaa2aae7d235c4fabf6f775e5868ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bdecb2926c3308d228491fb09c05dfc') in 0.028454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Models/01_Library_01_BookSmall_Purple.fbx
+  artifactKey: Guid(baeb6d946a999eb43a6439bb6ea7f69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Models/01_Library_01_BookSmall_Purple.fbx using Guid(baeb6d946a999eb43a6439bb6ea7f69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1c972f3c9033271e4edbd0fe9bd8f15') in 0.028625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.741850 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_WoodenTable#2.fbx
+  artifactKey: Guid(ea28e5713c123c647a7bcfd73549184c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_WoodenTable#2.fbx using Guid(ea28e5713c123c647a7bcfd73549184c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2555661ca1515b6c082b41339d30f16') in 0.113982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000583 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Models/03_Blacksmith_01_GrindingWheel_Wheel.fbx
+  artifactKey: Guid(c4218bbde1775dc488ffca256521fe4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Models/03_Blacksmith_01_GrindingWheel_Wheel.fbx using Guid(c4218bbde1775dc488ffca256521fe4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb17a07ba6db8d389dadc8440638fc9') in 0.089685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Models/04_Bedroom_01_Beed_4.fbx
+  artifactKey: Guid(e8c9e5adf8a0ced4a850a82188865bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Models/04_Bedroom_01_Beed_4.fbx using Guid(e8c9e5adf8a0ced4a850a82188865bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c809b1cfa8bfdfba8c59bc2a76d822f') in 0.030668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000650 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Models/03_Blacksmith_01_Hammer#2.fbx
+  artifactKey: Guid(1e457b6408d1a6d43a5ea2846d1bd88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Models/03_Blacksmith_01_Hammer#2.fbx using Guid(1e457b6408d1a6d43a5ea2846d1bd88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4356d5cd0c4143255096106dc6940c6a') in 0.044809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Models/97_Othert_PracticeTarget.fbx
+  artifactKey: Guid(ad0f2da82015cac4081251fb12c8cd9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Models/97_Othert_PracticeTarget.fbx using Guid(ad0f2da82015cac4081251fb12c8cd9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '764ccd3a2509dc633945d7b7db88fe0f') in 0.029137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Models/97_Othert_Key_Yellow.fbx
+  artifactKey: Guid(5f73264f4e49f0343aa00c76e62839ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Models/97_Othert_Key_Yellow.fbx using Guid(5f73264f4e49f0343aa00c76e62839ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e6e836a5cebda9c6814433b5af69312') in 0.027048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Models/03_Blacksmith_01_Hammer#1.fbx
+  artifactKey: Guid(69d98bde32b7f3e4bb75de0f21b4347f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Models/03_Blacksmith_01_Hammer#1.fbx using Guid(69d98bde32b7f3e4bb75de0f21b4347f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ec2704c7afa1e0a76e84f79d674347e') in 0.036123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Models/04_Bedroom_01_Matrace_ForBeed_2.fbx
+  artifactKey: Guid(bea1f70a1e340f244ab37d512ab24952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Models/04_Bedroom_01_Matrace_ForBeed_2.fbx using Guid(bea1f70a1e340f244ab37d512ab24952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53dd4f2fc0904f225fb67900a2aca8ed') in 0.037896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Models/03_Blacksmith_01_GrindingWheel_Frame.fbx
+  artifactKey: Guid(4f1f23180efdef6449f1b0b9b1b1083f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Models/03_Blacksmith_01_GrindingWheel_Frame.fbx using Guid(4f1f23180efdef6449f1b0b9b1b1083f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34885383713f2e9905c9af8cea109c7c') in 0.049709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Models/97_Othert_Key_Green_2.fbx
+  artifactKey: Guid(999d42a44ea251841ad479678d0e76da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Models/97_Othert_Key_Green_2.fbx using Guid(999d42a44ea251841ad479678d0e76da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b141809bcd373d2f309e362f42721b97') in 0.032940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Models/04_Bedroom_01_Beed_3.fbx
+  artifactKey: Guid(a638869df4328a94b8f7ebf1fda3b523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Models/04_Bedroom_01_Beed_3.fbx using Guid(a638869df4328a94b8f7ebf1fda3b523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5e287b8c794d05881cbe61933029685') in 0.037722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Models/96_Traps_Trap_FloorWheel.fbx
+  artifactKey: Guid(0702578e4efb1c045acba01655e403dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Models/96_Traps_Trap_FloorWheel.fbx using Guid(0702578e4efb1c045acba01655e403dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac491662f8d80f275ad9ded7ff0bc3f4') in 0.053110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Models/97_Othert_Amphora_Destroyable.fbx
+  artifactKey: Guid(52cb12b8923562c4396a116aa66d336a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Models/97_Othert_Amphora_Destroyable.fbx using Guid(52cb12b8923562c4396a116aa66d336a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a8061d97b76f28cfc1ce06e8cc8da6') in 0.137426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.043430 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Models/97_Othert_Star.fbx
+  artifactKey: Guid(33bd891aa40ecaf4390d56171a34e1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Models/97_Othert_Star.fbx using Guid(33bd891aa40ecaf4390d56171a34e1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9957fec59be555f7103c84d2c3670d7') in 0.032449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Models/99_Decorations_WallBanner_2.fbx
+  artifactKey: Guid(0a3f008b7c8f235498390d0f705b7705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Models/99_Decorations_WallBanner_2.fbx using Guid(0a3f008b7c8f235498390d0f705b7705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6048de06c64e9621b7225c829a7590ed') in 0.028501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Models/99_Decorations_WallBanner_4.fbx
+  artifactKey: Guid(e3909f3752d08d446b0e3034f5e23b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Models/99_Decorations_WallBanner_4.fbx using Guid(e3909f3752d08d446b0e3034f5e23b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d93952cce356088a4ecd82d27bb8c7f') in 0.042822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Models/99_Enviroment_Column_Rocky_1.fbx
+  artifactKey: Guid(3b065307e61a1b04abb4d0063d1265c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Models/99_Enviroment_Column_Rocky_1.fbx using Guid(3b065307e61a1b04abb4d0063d1265c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcaae303243d2a601922efc6b4d7d738') in 0.026777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Models/99_Decorations_SpiderWebb_2.fbx
+  artifactKey: Guid(0ece5c8b685346a4ca0e7f26de994d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Models/99_Decorations_SpiderWebb_2.fbx using Guid(0ece5c8b685346a4ca0e7f26de994d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6eba9b187ae8e13082d61d7d476c3a') in 0.021501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.036843 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Models/99_Enviroment_Floor_03.fbx
+  artifactKey: Guid(f5a2aed0ed573f4479111a67565c1d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Models/99_Enviroment_Floor_03.fbx using Guid(f5a2aed0ed573f4479111a67565c1d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb90e69df93c541e9c1665998d70f79') in 0.043361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Models/99_Enviroment_Wall_01.fbx
+  artifactKey: Guid(33017ed3f61fb2f4aaf8f84ce029b5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Models/99_Enviroment_Wall_01.fbx using Guid(33017ed3f61fb2f4aaf8f84ce029b5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e231abc4c39fa34da0437e2262e928f') in 0.043327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.235557 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Prefabs/96_Traps_Trap_FloorWheel.prefab
+  artifactKey: Guid(4feb7b624b286a94fb775672e6643c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Prefabs/96_Traps_Trap_FloorWheel.prefab using Guid(4feb7b624b286a94fb775672e6643c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b4ded8059e50ac9e1654c1b7ee864dd') in 0.019332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_Amphora_Destroyable.prefab
+  artifactKey: Guid(22c3c9f59017bab44a6af40069e7785f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_Amphora_Destroyable.prefab using Guid(22c3c9f59017bab44a6af40069e7785f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51263b558b0a68b685fc0aaa8a9468e9') in 0.023339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_Barrel_MK2.prefab
+  artifactKey: Guid(3df9b2ddf5f6382488f21cad82623b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_Barrel_MK2.prefab using Guid(3df9b2ddf5f6382488f21cad82623b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd786af99ccadf3edc7c4562761594f94') in 0.026935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Prefabs/99_Decorations_WallBanner_4.prefab
+  artifactKey: Guid(2448b7caaace7e64a8790c8d406f1fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Prefabs/99_Decorations_WallBanner_4.prefab using Guid(2448b7caaace7e64a8790c8d406f1fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c1ec858407ecc295113357bffc845a4') in 0.029324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Prefabs/99_Enviroment_Floor_01.prefab
+  artifactKey: Guid(0646289dde1e8a544800d3790d629971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Prefabs/99_Enviroment_Floor_01.prefab using Guid(0646289dde1e8a544800d3790d629971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0fdf24b0ceef43595601ca11c03eb05') in 0.018874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Prefabs/99_Enviroment_Floor_05.prefab
+  artifactKey: Guid(de6e8ec0b4ccf7a42ba81b3b399f3256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Prefabs/99_Enviroment_Floor_05.prefab using Guid(de6e8ec0b4ccf7a42ba81b3b399f3256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a93b610fe6c71f446197e6167aba5e8') in 0.024076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Prefabs/99_Enviroment_Stears.prefab
+  artifactKey: Guid(f2799c2d549259841b9b95372363edc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Prefabs/99_Enviroment_Stears.prefab using Guid(f2799c2d549259841b9b95372363edc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9f4ef7fe6a175bf0bd7f8191e92a7dc') in 0.032951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_Star.prefab
+  artifactKey: Guid(41540e7a0878dde4eba304e204da13e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_Star.prefab using Guid(41540e7a0878dde4eba304e204da13e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a39ababe293c836ed47b0449c8f0bd62') in 0.035891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Prefabs/99_Enviroment_DoorsFake#1.prefab
+  artifactKey: Guid(3f502d62a2f0dba418858bf9e609c6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Prefabs/99_Enviroment_DoorsFake#1.prefab using Guid(3f502d62a2f0dba418858bf9e609c6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc3ac839ce8dafc5a3395b2061e240fb') in 0.028099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Prefabs/99_Enviroment_Column_Rocky_1.prefab
+  artifactKey: Guid(f58268a6683cb49408153b9982f987ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Prefabs/99_Enviroment_Column_Rocky_1.prefab using Guid(f58268a6683cb49408153b9982f987ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd31da23c199f16a804af0b8e31a2b6d4') in 0.026311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/3D Dungeon Lowpoly Pack/Prefabs/99_Enviroment_Wall_02.prefab
+  artifactKey: Guid(dd057b69bb9b25e468854341f1abb5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Dungeon Lowpoly Pack/Prefabs/99_Enviroment_Wall_02.prefab using Guid(dd057b69bb9b25e468854341f1abb5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77882ba5b09d1e7b7c7548996e3ae193') in 0.021990 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
