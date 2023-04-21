@@ -1,30 +1,54 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.Sprites;
 using UnityEngine;
 
-public class Opening_Door : MonoBehaviour
+public class Key_Opening_doors : MonoBehaviour
 {
-    [SerializeField]
-    private bool isBlocked = false; //if false, player can open it with collison
 
-
-
+    private bool isBlocked = true; //if false, player can open it with collison
+    public delegate void activateDelegate(string color);
+    public static event activateDelegate tryToOpen;
     private bool alreadyOpened = false;
     private string PLAYER_TAG = "Player";
 
 
+    [SerializeField]
+    private string color = " ";
 
     public void OnTriggerStay(Collider collider)
     {
         if (collider.CompareTag(PLAYER_TAG))
         {
+            colidedWithDoors();
             if (!isBlocked && !alreadyOpened)
                 OpenGateStart();
 
         }
     }
 
+    private void colidedWithDoors()
+    {
+        if (tryToOpen != null)
+        {
+            tryToOpen(color);
+        }
+    }
+
+    private void OnEnable()
+    {
+        InventoryController.sendBackInfo += unlock;
+    }
+    private void onDisable()
+    {
+        InventoryController.sendBackInfo -= unlock;
+    }
+
+    private void unlock(bool allow, string clr)
+    {
+        if (allow == true)
+            if (clr == color)
+                isBlocked = false;
+    }
     private void OpenGateStart()
     {
         StartCoroutine(openGate());
@@ -55,5 +79,4 @@ public class Opening_Door : MonoBehaviour
             yield return new WaitForSeconds(0.01f);
         }
     }
-
 }
