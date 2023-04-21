@@ -10,11 +10,11 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - redDoor
   - Water
   - UI
-  - 
-  - 
+  - greenDoor
+  - yellowDoor
   - 
   - 
   - 

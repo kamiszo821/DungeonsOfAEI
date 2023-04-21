@@ -1,3 +1,4 @@
 *.dylib filter=lfs diff=lfs merge=lfs -text
 libburst-llvm-14.dylib filter=lfs diff=lfs merge=lfs -text
 lfs/objects/b0/74/b07447b824744e5b4e33674fbf2785e5f11ae53d7382417699512e93f2f0812b filter=lfs diff=lfs merge=lfs -text
+/Library/ArtifactDB filter=lfs diff=lfs merge=lfs -text
