@@ -15,9 +15,15 @@ C:/Users/Krzysio/Desktop/DungeonsOfAEI/Dungeons of AEI
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< Updated upstream
 61310
 Successfully changed project path to: C:/Users/Krzysio/Desktop/DungeonsOfAEI/Dungeons of AEI
 C:/Users/Krzysio/Desktop/DungeonsOfAEI/Dungeons of AEI
+=======
+55257
+Successfully changed project path to: C:/Users/pbeni/source/repos/DungeonsOfAEI/Dungeons of AEI
+C:/Users/pbeni/source/repos/DungeonsOfAEI/Dungeons of AEI
+>>>>>>> Stashed changes
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,11 +53,19 @@ C:/Users/Krzysio/Desktop/DungeonsOfAEI/Dungeons of AEI
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< Updated upstream
 Player connection [21224] Host "[IP] 192.168.1.2 [Port] 0 [Flags] 2 [Guid] 4172764937 [EditorId] 4172764937 [Version] 1048832 [Id] WindowsEditor(7,Krzyœ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [21224] Host "[IP] 192.168.1.2 [Port] 0 [Flags] 2 [Guid] 4172764937 [EditorId] 4172764937 [Version] 1048832 [Id] WindowsEditor(7,Krzyœ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 Refreshing native plugins compatible for Editor in 89.58 ms, found 3 plugins.
+=======
+Player connection [17860] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1366561200 [EditorId] 1366561200 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-0N9E9JTF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [17860] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1366561200 [EditorId] 1366561200 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-0N9E9JTF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 985.98 ms, found 3 plugins.
+>>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.21f1 (1b156197d683)
 [Subsystems] Discovering subsystems at path E:/Unity/2021.3.21f1/Editor/Data/Resources/UnitySubsystems
@@ -64,6 +78,7 @@ Direct3D:
     VRAM:     16338 MB
     Driver:   31.0.14037.1007
 Initialize mono
+<<<<<<< Updated upstream
 Mono path[0] = 'E:/Unity/2021.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Unity/2021.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/Unity/2021.3.21f1/Editor/Data/MonoBleedingEdge/etc'
@@ -82,11 +97,30 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (495ms)
 		BeginReloadAssembly (53ms)
+=======
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.047725 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 233.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.894 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2895ms)
+		BeginReloadAssembly (260ms)
+>>>>>>> Stashed changes
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
+<<<<<<< Updated upstream
 		EndReloadAssembly (380ms)
 			LoadAssemblies (52ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -101,17 +135,38 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (112ms)
 				ProcessInitializeOnLoadMethodAttributes (38ms)
+=======
+		EndReloadAssembly (1502ms)
+			LoadAssemblies (257ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (217ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (1150ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (234ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (768ms)
+				ProcessInitializeOnLoadMethodAttributes (134ms)
+>>>>>>> Stashed changes
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< Updated upstream
 Registered in 0.006742 seconds.
+=======
+Registered in 0.016967 seconds.
+>>>>>>> Stashed changes
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Krzysio\Desktop\DungeonsOfAEI\Dungeons of AEI\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Krzysio\Desktop\DungeonsOfAEI\Dungeons of AEI\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
+<<<<<<< Updated upstream
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 94.27 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -210,6 +265,48 @@ Unloading 5237 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 29 unused Assets / (0.8 MB). Loaded Objects now: 5780.
 Memory consumption went from 205.2 MB to 204.4 MB.
 Total: 3.006200 ms (FindLiveObjects: 0.290400 ms CreateObjectMapping: 0.115200 ms MarkObjects: 2.342000 ms  DeleteObjects: 0.258100 ms)
+=======
+Refreshing native plugins compatible for Editor in 222.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.097 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3100ms)
+		BeginReloadAssembly (180ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (2733ms)
+			LoadAssemblies (260ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (747ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (109ms)
+			SetupLoadedEditorAssemblies (1462ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (223ms)
+				BeforeProcessingInitializeOnLoad (186ms)
+				ProcessInitializeOnLoadAttributes (785ms)
+				ProcessInitializeOnLoadMethodAttributes (216ms)
+				AfterProcessingInitializeOnLoad (41ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (67ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.28 seconds
+Refreshing native plugins compatible for Editor in 641.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5316 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (0.8 MB). Loaded Objects now: 5770.
+Memory consumption went from 211.5 MB to 210.7 MB.
+Total: 815.554700 ms (FindLiveObjects: 0.565000 ms CreateObjectMapping: 0.479000 ms MarkObjects: 793.124200 ms  DeleteObjects: 21.385400 ms)
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -222,6 +319,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+<<<<<<< Updated upstream
 Received Import Request.
   Time since last request: 119973.310835 seconds.
   path: Assets/Our Assets/Textures
@@ -1509,3 +1607,72 @@ Editor requested this worker to shutdown with reason: Scaling down because of id
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0
+=======
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010867 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\pbeni\source\repos\DungeonsOfAEI\Dungeons of AEI\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\pbeni\source\repos\DungeonsOfAEI\Dungeons of AEI\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.349 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5351ms)
+		BeginReloadAssembly (557ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (22ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (134ms)
+		EndReloadAssembly (4460ms)
+			LoadAssemblies (401ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1540ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (151ms)
+			SetupLoadedEditorAssemblies (2279ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (323ms)
+				ProcessInitializeOnLoadAttributes (1648ms)
+				ProcessInitializeOnLoadMethodAttributes (257ms)
+				AfterProcessingInitializeOnLoad (30ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 23.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5240 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (0.8 MB). Loaded Objects now: 5785.
+Memory consumption went from 205.8 MB to 205.0 MB.
+Total: 12.755800 ms (FindLiveObjects: 0.720200 ms CreateObjectMapping: 0.755700 ms MarkObjects: 10.558300 ms  DeleteObjects: 0.719800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 26974.372392 seconds.
+  path: Assets/Scenes/Piotr -test 1.unity
+  artifactKey: Guid(f4668a6c9022c364eb5aa12c25d232ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Piotr -test 1.unity using Guid(f4668a6c9022c364eb5aa12c25d232ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07e46b3a66e62272f7562ede1a2f1365') in 0.019058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.059120 seconds.
+  path: Assets/Scenes/krzychu-test.unity
+  artifactKey: Guid(1398bedc35bd8bd48897edcd70ef06e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/krzychu-test.unity using Guid(1398bedc35bd8bd48897edcd70ef06e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd194b4f775404a03eb5ce6a30c615327') in 0.005000 seconds 
+>>>>>>> Stashed changes

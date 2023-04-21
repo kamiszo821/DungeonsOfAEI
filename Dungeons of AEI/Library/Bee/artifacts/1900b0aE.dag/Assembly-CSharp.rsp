@@ -378,6 +378,8 @@
 "Assets/Scripts/Opening Gates Scripts/OnClick Opening Gates/OpeningWheel.cs"
 "Assets/Scripts/Opening Gates Scripts/Slab Activated Gates/Opening_Gate.cs"
 "Assets/Scripts/Opening Gates Scripts/Slab Activated Gates/Slab_Activator.cs"
+"Assets/Scripts/Score/CoinPick.cs"
+"Assets/Scripts/Score/ScoreController.cs"
 "Assets/StarterAssets/FirstPersonController/Scripts/BasicRigidBodyPush.cs"
 "Assets/StarterAssets/FirstPersonController/Scripts/FirstPersonController.cs"
 "Assets/StarterAssets/InputSystem/StarterAssetsInputs.cs"
