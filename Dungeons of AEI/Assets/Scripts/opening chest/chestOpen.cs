@@ -43,12 +43,21 @@ public class chestOpen : MonoBehaviour
     IEnumerator openGate(bool opened)
     {
         openingNow = true;
-        for (int x = 0; x <= 90; x++)
+        float rotationAmount = 0f;
+        Quaternion startingRotation = transform.rotation;
+        for (float x = 0f; x <= 90f; x++)
         {
+
             if (isopened == false)
-                transform.Rotate(-1, 0, 0, Space.Self);
-            if (isopened == true)
-                transform.Rotate(1, 0, 0, Space.Self);
+            {
+                rotationAmount = -x;
+            }
+            else
+            {
+                rotationAmount = x;
+            }
+            Quaternion rotation = Quaternion.Euler(startingRotation.eulerAngles.x + rotationAmount, startingRotation.eulerAngles.y, startingRotation.eulerAngles.z);
+            transform.rotation = rotation;
             yield return new WaitForSeconds(0.01f);
         }
         if (isopened == false)

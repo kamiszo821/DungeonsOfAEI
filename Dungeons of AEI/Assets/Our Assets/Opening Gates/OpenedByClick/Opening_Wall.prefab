@@ -18,7 +18,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &6922831375991833498
 Transform:
@@ -34,7 +34,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &6922831375990539194
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -56,6 +56,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isopened: 0
+  endPos: 3
+  gateID: 99
 --- !u!23 &6922831375989539194
 MeshRenderer:
   m_ObjectHideFlags: 0
