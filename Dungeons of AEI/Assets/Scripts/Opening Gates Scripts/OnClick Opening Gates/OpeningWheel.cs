@@ -10,7 +10,7 @@ public class OpeningWheel : MonoBehaviour
     public static event activateDelegate sendinfoWheel;
 
     [SerializeField]
-    private int gateID=0;
+    private int gateID = 0;
 
     [SerializeField]
     private GameObject PlayerObject;
@@ -19,7 +19,6 @@ public class OpeningWheel : MonoBehaviour
     private bool animateOnlyOnce = false;
 
     private bool animationActive = false;
-
 
     void activate()
     {
@@ -49,9 +48,10 @@ public class OpeningWheel : MonoBehaviour
 
     IEnumerator startRotating()
     {
+        Quaternion startingRotation = transform.rotation;
         for (int x = 0; x <= 360; x++)
         {
-            Quaternion rotation = Quaternion.Euler(x, 0, 0);
+            Quaternion rotation = Quaternion.Euler(startingRotation.eulerAngles.x + x, startingRotation.eulerAngles.y, startingRotation.eulerAngles.z);
             transform.rotation = rotation;
             yield return new WaitForSeconds(0.01f);
 
