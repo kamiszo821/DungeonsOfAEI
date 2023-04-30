@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 6922831375991833498}
   - component: {fileID: 6922831375990539194}
-  - component: {fileID: 7714255480384399268}
   - component: {fileID: 6922831375989539194}
   - component: {fileID: 6922831375991807925}
+  - component: {fileID: 1470569606}
   m_Layer: 0
   m_Name: Opening_Wall
   m_TagString: Untagged
@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 6922831375991807930}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.24, y: 0.21, z: -0.59}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.1343256, y: 1.0604999, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -43,21 +43,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6922831375991807930}
   m_Mesh: {fileID: -1241022128655451999, guid: dc9f3484ce4f67f419753556f57cae0f, type: 3}
---- !u!114 &7714255480384399268
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6922831375991807930}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f483c7cdf1f6524687ad4735b0e6e50, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isopened: 0
-  endPos: 3
-  gateID: 99
 --- !u!23 &6922831375989539194
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -114,3 +99,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7240835619567655346, guid: 39ed1fd2f4eb6e0469325f551ad93844, type: 3}
+--- !u!114 &1470569606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6922831375991807930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0383523190b2fc7408139aca81ee542b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isopened: 0
+  endPos: 3
+  gateID: 2
