@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1421072749616600288}
   - component: {fileID: 5663964847430128463}
   - component: {fileID: 4883833002946917395}
+  - component: {fileID: 8863125995905957793}
   m_Layer: 0
   m_Name: bench
   m_TagString: Untagged
@@ -83,3 +84,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8863125995905957793
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7282698192711742900}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 357c2f79af4e8e64f9c5e881feaa1d3f, type: 2}
