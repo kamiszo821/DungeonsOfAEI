@@ -1,0 +1,2 @@
+16 żaków zwróciło się do mnie z prośbą, czy mógłbym im zaoferować praktyki w moim cechu. Ponieważ nie mam miejsca dla tylu osób postanowiłem sprawdzić ich wiedzę. Zadałem im jedno bardzo proste pytanie:
+Gdyby każdy z was był pakietem danych o polu danych długości 1024B w szerokopasmowym izochronicznym punkcie końcowym i w ramach jednego interwału serwisowego moglibyście wykonać do 3 transakcji, to w czasie jednego interwału serwisowego, ile moglibyście maksymalnie przesłać KiB danych?
