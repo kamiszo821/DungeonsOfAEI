@@ -39,13 +39,14 @@ public class Opening_Door : MonoBehaviour
     IEnumerator openGate()
     {
         alreadyOpened = true;
+        if (nextLevelDoor)
+            SceneManager.LoadScene(sceneName);
         for (int x = 0; x <= 90; x++)
         {
             transform.Rotate(0, 1, 0, Space.Self);
             yield return new WaitForSeconds(0.01f);
         }
-        if(nextLevelDoor)
-            SceneManager.LoadScene(sceneName);
+
     }
 
 
