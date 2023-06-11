@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -305,6 +305,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 166eb1e5f24013c4fbd2d730cd0c2f5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneName: Level_1
 --- !u!1 &437520603
 GameObject:
   m_ObjectHideFlags: 0
@@ -2586,7 +2587,23 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Plot goes here...
+  m_text: "Zamek AEI by\u0142 niegdy\u015B zamieszkany przez pot\u0119\u017Cnych
+    czarownik\xF3w, mie\u015Bci\u0142a si\u0119 tam te\u017C akademia magii, kt\xF3ra
+    rekrutowa\u0142a nowicjuszy w celu nauczenia ich magicznych tajemnic. Kilka lat
+    temu, Zamek zosta\u0142 niespodziewanie opuszczony, wszyscy czarodzieje uciekli
+    z zamku, nikt nie wie z jakiego powodu. Kr\u0105\u017C\u0105 plotki, \u017Ce
+    pono\u0107 w lochach zamku wydarzy\u0142o si\u0119 co\u015B straszliwego i niebezpiecznego,
+    \u017Ce czarodzieje w po\u015Bpiechu uciekli z zamku. Od tego czasu, nikt nie
+    odwa\u017Cy\u0142 si\u0119 zapu\u015Bci\u0107 do opuszczonego zamczyska, nikt,
+    poza Tob\u0105. Skoro czarodzieje tak po\u015Bpiesznie opu\u015Bcili zamczysko,
+    z pewno\u015Bci\u0105 zostawili w nim sporo skarb\xF3w, mi\u0119dzy innymi s\u0142awne
+    ECTS, czyli niezwykle drogocenne magiczne monety. Podobno zosta\u0142o ich wykute
+    trzydzie\u015Bci sztuk, ich odnalezienie by\u0142oby r\xF3wnoznaczne z przeogromnym
+    bogactwem i zapewnieniem dostatniego \u017Cycia.  Czujesz jednak strach przed
+    tym, co przep\u0119dzi\u0142o mag\xF3w z zamku, mo\u017Ce jednak uda Ci si\u0119
+    rozwi\u0105za\u0107 t\u0105 tajemnicz\u0105 zagadk\u0119. Po wej\u015Bciu do
+    zamku, uda\u0142o Ci sie odnale\u017A\u0107 jedyne otwarte wej\u015Bcie do loch\xF3w,
+    pora odnale\u017A\u0107 skarb..."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2649,7 +2666,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -147.47525, y: 0, z: -148.0263, w: 0}
+  m_margin: {x: -222.58748, y: 0, z: -221.16185, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
