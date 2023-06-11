@@ -13,7 +13,8 @@ public class Opening_Door : MonoBehaviour
     private bool alreadyOpened = false;
     private string PLAYER_TAG = "Player";
 
-
+    [SerializeField]
+    public AudioSource src;
 
     public void OnTriggerStay(Collider collider)
     {
@@ -27,6 +28,7 @@ public class Opening_Door : MonoBehaviour
 
     private void OpenGateStart()
     {
+        src.Play();
         StartCoroutine(openGate());
     }
 
