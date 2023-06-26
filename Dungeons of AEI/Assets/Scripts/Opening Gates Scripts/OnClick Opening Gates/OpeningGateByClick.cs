@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/**
+ * Script attached to the gate that should be open after player click a proper trigger object
+ */
 public class OpeningGateByClick : MonoBehaviour
 {
     [SerializeField]
@@ -20,26 +23,25 @@ public class OpeningGateByClick : MonoBehaviour
         beginPos = transform.position.y;
     }
 
-
     private void OnEnable()
     {
-        OpeningWheel.sendinfoWheel += startClosingGate;
-
+        OpeningWheel.sendinfoWheel += startOpeningGate;
     }
     private void OnDisable()
     {
-        OpeningWheel.sendinfoWheel -= startClosingGate;
+        OpeningWheel.sendinfoWheel -= startOpeningGate;
     }
 
-    private void startClosingGate(int id)
+    //check gate id with trigger id
+    private void startOpeningGate(int id)
     {
         if (!isopened && this.gateID == id)
-            StartCoroutine(closeGate());
+            StartCoroutine(OpenGate());
     }
 
-    IEnumerator closeGate()
+    //fluently open the gate
+    IEnumerator OpenGate()
     {
-
         isopened = true;
         while (transform.position.y >= beginPos - endPos)
         {

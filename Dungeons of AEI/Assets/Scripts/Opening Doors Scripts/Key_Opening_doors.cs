@@ -2,19 +2,25 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+/**
+ * Script connected to color doors. If player has a proper key, doors will be opened
+ */
 public class Key_Opening_doors : MonoBehaviour
 {
 
     private bool isBlocked = true; //if false, player can open it with collison
+
     public delegate void activateDelegate(string color);
     public static event activateDelegate tryToOpen;
+
     private bool alreadyOpened = false;
     private string PLAYER_TAG = "Player";
-
 
     [SerializeField]
     private string color = " ";
 
+    //Detect collision with player
     public void OnTriggerStay(Collider collider)
     {
         if (collider.CompareTag(PLAYER_TAG))
@@ -22,10 +28,10 @@ public class Key_Opening_doors : MonoBehaviour
             colidedWithDoors();
             if (!isBlocked && !alreadyOpened)
                 OpenGateStart();
-
         }
     }
 
+    //try to open door after collision
     private void colidedWithDoors()
     {
         if (tryToOpen != null)
@@ -34,6 +40,7 @@ public class Key_Opening_doors : MonoBehaviour
         }
     }
 
+    //sends info to the equipment object to chech if player has a proper key
     private void OnEnable()
     {
         InventoryController.sendBackInfo += unlock;
@@ -43,17 +50,19 @@ public class Key_Opening_doors : MonoBehaviour
         InventoryController.sendBackInfo -= unlock;
     }
 
+    //takes info from inventory object and unlocks the door if we have a proper key
     private void unlock(bool allow, string clr)
     {
         if (allow == true)
             if (clr == color)
                 isBlocked = false;
     }
+
+    //fluently opens the door
     private void OpenGateStart()
     {
         StartCoroutine(openGate());
     }
-
     IEnumerator openGate()
     {
         alreadyOpened = true;
@@ -64,7 +73,7 @@ public class Key_Opening_doors : MonoBehaviour
         }
     }
 
-
+    //fluently closes the door
     private void CloseGateStart()
     {
         StartCoroutine(closeGate());

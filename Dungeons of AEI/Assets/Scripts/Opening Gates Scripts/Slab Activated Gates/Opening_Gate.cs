@@ -2,13 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/**
+ * Script for the doors that should be opened after getting signal from
+ * activation slab.
+ */
 public class Opening_Gate : MonoBehaviour
 {
     [SerializeField]
     private bool isopened = false;
 
     [SerializeField]
-    private float endPos = 3;
+    private float endPos = 3; //to determine object final position
 
     [SerializeField]
     private int gateID;
@@ -22,23 +26,22 @@ public class Opening_Gate : MonoBehaviour
 
     private void OnEnable()
     {
-        Slab_Activator.sendinfo += startClosingGate;
+        Slab_Activator.sendinfo += startOpeningGate;
 
     }
     private void OnDisable()
     {
-        Slab_Activator.sendinfo -= startClosingGate;
+        Slab_Activator.sendinfo -= startOpeningGate;
     }
 
-    private void startClosingGate(int id)
+    //fluently open the gate
+    private void startOpeningGate(int id)
     {
         if (!isopened && this.gateID == id)
-            StartCoroutine(closeGate());
+            StartCoroutine(OpenGate());
     }
-
-    IEnumerator closeGate()
+    IEnumerator OpenGate()
     {
-
         isopened = true;
         while (transform.position.y >= beginPos - endPos)
         {

@@ -4,6 +4,9 @@ using System.Collections.Generic;
 using System.Drawing;
 using UnityEngine;
 
+/**
+ * Script connected to the key, sends info after player takes the key
+ */
 public class KeyPick : MonoBehaviour
 {
     [SerializeField]
@@ -24,8 +27,10 @@ public class KeyPick : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
     private void OnMouseDown()
     {
+        //checks if the player is close enought to pick up the key
         if (Math.Abs(PlayerObject.transform.position.x - transform.position.x) < 1.5 && Math.Abs(PlayerObject.transform.position.z - transform.position.z) < 1.5)
         {
             activate();

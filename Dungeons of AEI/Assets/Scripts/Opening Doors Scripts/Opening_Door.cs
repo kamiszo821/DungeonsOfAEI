@@ -4,6 +4,9 @@ using UnityEditor.Sprites;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+/**
+ * Script attached to the regular doors, player can open them with collision
+ */
 public class Opening_Door : MonoBehaviour
 {
     [SerializeField]
@@ -20,22 +23,21 @@ public class Opening_Door : MonoBehaviour
     private string PLAYER_TAG = "Player";
 
 
-
+    //Detect collision with player
     public void OnTriggerStay(Collider collider)
     {
         if (collider.CompareTag(PLAYER_TAG))
         {
             if (!isBlocked && !alreadyOpened)
                 OpenGateStart();
-
         }
     }
 
+    //fluently opens the door
     private void OpenGateStart()
     {
         StartCoroutine(openGate());
     }
-
     IEnumerator openGate()
     {
         alreadyOpened = true;
@@ -46,15 +48,13 @@ public class Opening_Door : MonoBehaviour
             transform.Rotate(0, 1, 0, Space.Self);
             yield return new WaitForSeconds(0.01f);
         }
-
     }
 
-
+    //fluently closes the door
     private void CloseGateStart()
     {
         StartCoroutine(closeGate());
     }
-
     IEnumerator closeGate()
     {
         alreadyOpened = false;
