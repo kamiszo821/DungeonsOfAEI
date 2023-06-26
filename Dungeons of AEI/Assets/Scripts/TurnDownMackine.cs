@@ -3,6 +3,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/**
+ * Script usen in the last game stage, deactivates all particles simulating
+ * machine turning off.
+ */
 public class TurnDownMackine : MonoBehaviour
 {
 
@@ -15,18 +19,8 @@ public class TurnDownMackine : MonoBehaviour
     private bool animationActive = false;
 
     private bool animateOnlyOnce = true;
-    // Start is called before the first frame update
-    void Start()
-    {
 
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
+    //chech if player is close enough to activate this item
     private void OnMouseDown()
     {
         if (Math.Abs(PlayerObject.transform.position.x - transform.position.x) < 1.5 && Math.Abs(PlayerObject.transform.position.z - transform.position.z) < 1.5)
@@ -39,11 +33,11 @@ public class TurnDownMackine : MonoBehaviour
         }
     }
 
+    //fluently animate object rotation and deactivate attached particles effects
     private void animate()
     {
         StartCoroutine(startRotating());
     }
-
     IEnumerator startRotating()
     {
         Quaternion startingRotation = transform.rotation;

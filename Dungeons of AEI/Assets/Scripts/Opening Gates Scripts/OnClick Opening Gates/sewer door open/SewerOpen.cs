@@ -2,6 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/**
+ * Script attached to the gate, after getting a proper signal, gate will be opnened
+ * Gate will be open in Z axis
+ */
 public class SewerOpen : MonoBehaviour
 {
     private bool alreadyOpened = false;
@@ -28,15 +32,14 @@ public class SewerOpen : MonoBehaviour
     {
         OpeningWheel.sendinfoWheel -= OpenGateStart;
     }
-
-
-
+    //check gate id with trigger id
     private void OpenGateStart(int id)
     {
         if (!alreadyOpened && this.gateID == id)
             StartCoroutine(openGate());
     }
 
+    //open gate
     IEnumerator openGate()
     {
         alreadyOpened = true;

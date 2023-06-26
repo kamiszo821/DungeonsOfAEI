@@ -2,6 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+
+/**
+ * Script connected to the chest, allows player to oben and close chest
+ */
 public class chestOpen : MonoBehaviour
 {
     [SerializeField]
@@ -20,7 +24,7 @@ public class chestOpen : MonoBehaviour
         }
     }
 
-
+    //if player is close enough, closes or opens chest after clicking on it
     private void OnMouseDown()
     {
         if (Math.Abs(PlayerObject.transform.position.x - transform.position.x) < 1.5 && Math.Abs(PlayerObject.transform.position.z - transform.position.z) < 1.5)
@@ -35,11 +39,11 @@ public class chestOpen : MonoBehaviour
         }
     }
 
+    //Two methods below are responsible for chest fluent movement 
     private void OpenChest(bool opened)
     {
         StartCoroutine(openGate(opened));
     }
-
     IEnumerator openGate(bool opened)
     {
         openingNow = true;
@@ -47,7 +51,6 @@ public class chestOpen : MonoBehaviour
         Quaternion startingRotation = transform.rotation;
         for (float x = 0f; x <= 90f; x++)
         {
-
             if (isopened == false)
             {
                 rotationAmount = -x;

@@ -2,6 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/**
+ * Script attached to the opening slab, should open a chosen door after player
+ * stand on it.
+ */
 public class Slab_Activator : MonoBehaviour
 {
 
@@ -11,8 +15,9 @@ public class Slab_Activator : MonoBehaviour
     public static event activateDelegate sendinfo;
 
     [SerializeField]
-    private int gateID = 0;
+    private int gateID = 0; //same as the doors that are about to be opened
 
+    //detect collision with player
     public void OnTriggerStay(Collider collider)
     {
         if (collider.CompareTag(PLAYER_TAG))
@@ -22,7 +27,7 @@ public class Slab_Activator : MonoBehaviour
         }
     }
 
-
+    //send info to the chosen gate
     void activate()
     {
         if (sendinfo != null)

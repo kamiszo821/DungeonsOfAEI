@@ -9,11 +9,16 @@ using StarterAssets;
 using System.IO;
 
 
+/**
+ * Script connected to the Riddle, shows the text, has multiple control elements and provides
+ * A visible interface for riddle solving player. 
+ */
 public class OpenNoteAndCheck : MonoBehaviour
 {
     const string QUESTIONS_PATH = "Assets/Our Assets/Note Reading/Questions/";
     const string ANSWERS_PATH = "Assets/Our Assets/Note Reading/Answers/";
 
+    //below all GUI element holders
     [SerializeField]
     public int noteID; // Serialized field for the unique ID of the note
 
@@ -35,13 +40,10 @@ public class OpenNoteAndCheck : MonoBehaviour
     private GameObject PlayerObject;
 
     public GameObject submitButton;
-
     public GameObject userInputObject;
-
     public GameObject answerFeedbackObject;
 
 
-    // Start is called before the first frame update
     void Start()
     {
         if (null != noteImage)
@@ -71,6 +73,7 @@ public class OpenNoteAndCheck : MonoBehaviour
     }
 
 
+    //Show the riddle
     public void ShowNoteImage()
     {
         FirstPersonController firstPersonController = PlayerObject.GetComponent<FirstPersonController>();
@@ -94,24 +97,22 @@ public class OpenNoteAndCheck : MonoBehaviour
         Cursor.visible = true;
     }
 
+    //Check if input answer is correct
     public void checkAnswer()
     {
         //Read the ANSWER from the file
         StreamReader reader = new StreamReader(ANSWERS_PATH + noteID.ToString() + ".txt");
-        //Text answerFeedbackText = answerFeedback.GetComponent<Text>();
-        //Text userInputText = userInput.GetComponent<Text>();
         if (userInput.text == reader.ReadToEnd())
         {
-            //answerFeedbackText.text = "Correct!";
             answerFeedback.text = "Correct!";
         }
         else
         {
-            //answerFeedbackText.text = "Wrong :(";
             answerFeedback.text = "Wrong :(";
         }
     }
 
+    //Hide the riddle
     public void HideNoteImage()
     {
         FirstPersonController firstPersonController = PlayerObject.GetComponent<FirstPersonController>();
@@ -125,20 +126,17 @@ public class OpenNoteAndCheck : MonoBehaviour
         userInputObject.SetActive(false);
         submitButton.SetActive(false);
         answerFeedbackObject.SetActive(false);
-
-
-
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
 
     }
 
+    //Check if the player is close enough to open the riddle
     private void OnMouseDown()
     {
         if (Math.Abs(PlayerObject.transform.position.x - transform.position.x) < 1.5 && Math.Abs(PlayerObject.transform.position.z - transform.position.z) < 1.5)
         {
             ShowNoteImage();
-            //Debug.Log("xd");
         }
     }
 }

@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+/**
+ * Simple main menu script, connected to main menu scene
+ */
 public class MainMenu : MonoBehaviour
 {
 

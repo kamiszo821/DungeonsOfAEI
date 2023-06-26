@@ -4,8 +4,10 @@ using System.Drawing;
 using UnityEngine;
 using UnityEngine.UI;
 
-//drag this script to Equipment object
-
+/**
+ * Script responcible to controll the key inventory, every cfollected key will be visible in the corner of the screen.
+ * Keys will disappear after using them to open a proper door
+ */
 public class InventoryController : MonoBehaviour
 {
     [SerializeField]
@@ -16,6 +18,7 @@ public class InventoryController : MonoBehaviour
     // 2 - green
     // 3 - yellow
 
+    //3 slots for 3 keys
     [SerializeField]
     private GameObject slot1;
     [SerializeField]
@@ -33,8 +36,8 @@ public class InventoryController : MonoBehaviour
     private int size = 0;
 
     public delegate void activateDelegate(bool allow, string color);
-    public static event activateDelegate sendBackInfo; //send info if we have a proper key
-
+    //send info if we have a proper key
+    public static event activateDelegate sendBackInfo;
 
     private void OnEnable()
     {
@@ -48,7 +51,10 @@ public class InventoryController : MonoBehaviour
         Key_Opening_doors.tryToOpen -= sendKeyInfo;
     }
 
-
+    /**
+    *Method is being invoked after finding a key, checks the color, updates inventory info
+    * and places key icon on the screen
+    */
     private void gotKey(string color)
     {
         switch (color)
@@ -122,6 +128,9 @@ public class InventoryController : MonoBehaviour
         }
     }
 
+    /**
+     * Method invoked after collision with a key requiring door, checks if we can open it
+     */
     private void sendKeyInfo(string color)
     {
         if (color == "red")
@@ -159,11 +168,9 @@ public class InventoryController : MonoBehaviour
                 }
             }
         }
-
-
-
     }
 
+    //send response with key color
     private void sendResponse(string clr)
     {
         if (sendBackInfo != null)
@@ -173,6 +180,7 @@ public class InventoryController : MonoBehaviour
         }
     }
 
+    //replaces key icon with an empty image
     private void reorder(int pos)
     {
         if (pos == 0)

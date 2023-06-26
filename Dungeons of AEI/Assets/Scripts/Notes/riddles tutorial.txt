@@ -1,5 +1,5 @@
 Place the "note" object in the scene.
 Place an object that triggers the puzzle.
-Attach a script to the object with the puzzle.
+Attach the script to the object with the puzzle.
 Connect all elements from the "note" object to the script.
 Assign the methods from the script to the buttons in the "note" object.
