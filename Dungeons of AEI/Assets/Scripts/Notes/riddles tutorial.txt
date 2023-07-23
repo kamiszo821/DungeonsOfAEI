@@ -1,3 +1,4 @@
+PARTLY DEPRICATED, NOW RIDDLES AND ANSWERS ARE IN SCRIPT, NEED JUST TO PICH RIDDLENUMBER FROM 1 TO 4
 Place the "note" object in the scene.
 Place an object that triggers the puzzle.
 Attach the script to the object with the puzzle.
