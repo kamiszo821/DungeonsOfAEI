@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Drawing;
+using UnityEditor.ShaderGraph.Drawing.Inspector.PropertyDrawers;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -39,6 +40,12 @@ public class InventoryController : MonoBehaviour
     //send info if we have a proper key
     public static event activateDelegate sendBackInfo;
 
+    private AudioSource sound;
+
+    private void Start()
+    {
+        sound = GetComponent<AudioSource>();
+    }
     private void OnEnable()
     {
         KeyPick.picked += gotKey;
@@ -57,8 +64,10 @@ public class InventoryController : MonoBehaviour
     */
     private void gotKey(string color)
     {
+        sound.Play();
         switch (color)
         {
+
             case "red":
                 {
                     isRed = true;
