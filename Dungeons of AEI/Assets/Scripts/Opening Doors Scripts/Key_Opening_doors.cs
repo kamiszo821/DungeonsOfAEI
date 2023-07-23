@@ -20,6 +20,13 @@ public class Key_Opening_doors : MonoBehaviour
     [SerializeField]
     private string color = " ";
 
+    private AudioSource sound;
+
+    private void Start()
+    {
+        sound = GetComponent<AudioSource>();
+    }
+
     //Detect collision with player
     public void OnTriggerStay(Collider collider)
     {
@@ -61,6 +68,7 @@ public class Key_Opening_doors : MonoBehaviour
     //fluently opens the door
     private void OpenGateStart()
     {
+        sound.Play();
         StartCoroutine(openGate());
     }
     IEnumerator openGate()
@@ -76,6 +84,7 @@ public class Key_Opening_doors : MonoBehaviour
     //fluently closes the door
     private void CloseGateStart()
     {
+
         StartCoroutine(closeGate());
     }
 

@@ -11,8 +11,15 @@ public class MainMenu : MonoBehaviour
 
     [SerializeField]
     private string sceneName;
+
+    public void Start()
+    {
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
+    }
     public void Play()
     {
+
         SceneManager.LoadScene(sceneName);
     }
 

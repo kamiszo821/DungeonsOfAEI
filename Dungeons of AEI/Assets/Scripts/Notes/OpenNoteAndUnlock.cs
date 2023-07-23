@@ -37,6 +37,9 @@ public class OpenNoteAndUnlock : MonoBehaviour
     public GameObject noteText;
 
     [SerializeField]
+    public int riddleNumber;
+
+    [SerializeField]
     private GameObject PlayerObject;
 
     public GameObject submitButton;
@@ -48,6 +51,14 @@ public class OpenNoteAndUnlock : MonoBehaviour
     public delegate void activateDelegate(int id);
     public static event activateDelegate nowOpened;
 
+    private string riddle1 = "Ba³wany! Zw¹ siê czarodziejami a to zwyk³e ba³wany! Mówi³em im kilka razy, nie dodaje siê cukru do magicznych eliksirów w celu poprawienia ich smaku! Cukier mo¿e zabiæ czarodziejskie w³aœciwoœci wywaru lub gorzej, zmieniæ je na inne.  Najtrudniej to zrozumieæ Gormanowi, zwyk³y adept magii a g³upszy ni¿ niewyedukowany wieœniak. Ba³wan, ba³wan, TRZY RAZY BA£WAN…";
+    private string riddle2 = "Ktoœ chce abym zada³ zagadkê?\nLubiê zagadki, jestem w to dobry\nUwielbiam zmuszaæ innych do myœlenia\nChyba nikt nie rozwi¹¿e zagadki\nZawsze w nie wygrywam!\n\n\n Nie kazdy wie, leczczasami trzeba przeanalizowaæ zagadkê od góry do do³u.";
+    private string riddle3 = "Matematyka? To dziedzina zarezerwowana wy³¹cznie dla czarowników, nikt inny nie rozwi¹¿e tej zagadki:\r\nRok temu, arcymag Magnus zamówi³ sprzêt alchemiczny do nowej sali laboratoryjnej dla m³odych czarowników. Ca³y sprzêt kosztowa³ 1000 z³ote monety. Ju¿ pierwszego dnia, m³odzi czarodzieje zepsuli kilka urz¹dzeñ, nale¿a³o wiêc zakupiæ dodatkowe narzêdzia, które kosztowa³y po³owê ceny sprzêtu kupionego poprzedniego dnia. Drugiego dnia, czarownicy wyrz¹dzili szkody warte po³owê tych wyrz¹dzonych trzeciego dnia. Trzeciego dnia przesadzili i szkody kosztowa³y arcymaga sumê tego ile wynios³y szkody z pierwszego i drugiego dnia. Magnus jednak cierpliwie zamawia³ nowy sprzêt. \r\nIle wyniós³ ³¹czny koszt sprzêtów oraz wszystkich napraw?\r\n";
+    private string riddle4 = "Helltarionie, mój przyjacielu, przyjaŸniliœmy siê 2 lata, jednak poró¿ni³a nas 1 rzecz. Twoje ambicje by³y 3 razy wiêksze ni¿ moje. Mimo ¿e 5 razy odci¹ga³em Ciê od pomys³u stworzenia tej strasznej maszyny, Ty nie s³ucha³eœ...";
+    private string answer1 = "888";
+    private string answer2 = "klucz";
+    private string answer3 = "3000";
+    private string answer4 = "2135";
 
     void Start()
     {
@@ -97,9 +108,24 @@ public class OpenNoteAndUnlock : MonoBehaviour
         answerFeedbackObject.SetActive(true);
         Text uiText = noteText.GetComponent<Text>();
 
-        //Read the text from directly from the file
-        StreamReader reader = new StreamReader(QUESTIONS_PATH + noteID.ToString() + ".txt");
-        uiText.text = reader.ReadToEnd();
+        switch (riddleNumber)
+        {
+            case 1:
+                uiText.text = riddle1;
+                break;
+            case 2:
+                uiText.text = riddle2;
+                break;
+            case 3:
+                uiText.text = riddle3;
+                break;
+            case 4:
+                uiText.text = riddle4;
+                break;
+        }
+
+        // StreamReader reader = new StreamReader(QUESTIONS_PATH + noteID.ToString() + ".txt");
+        // uiText.text = reader.ReadToEnd();
         crosshair.enabled = false;
         Screen.lockCursor = false;
         firstPersonController.enabled = false;
@@ -112,16 +138,33 @@ public class OpenNoteAndUnlock : MonoBehaviour
     public void checkAnswer()
     {
         //Read the ANSWER from the file
-        StreamReader reader = new StreamReader(ANSWERS_PATH + noteID.ToString() + ".txt");
-        if (userInput.text == reader.ReadToEnd())
+        // StreamReader reader = new StreamReader(ANSWERS_PATH + noteID.ToString() + ".txt");
+        string answer = "";
+
+        switch (riddleNumber)
         {
-            answerFeedback.text = "Correct!";
+            case 1:
+                answer = answer1;
+                break;
+            case 2:
+                answer = answer2;
+                break;
+            case 3:
+                answer = answer3;
+                break;
+            case 4:
+                answer = answer4;
+                break;
+        }
+        if (userInput.text == answer)
+        {
+            answerFeedback.text = "Dobra odpowieŸ";
             activate();
             StartCoroutine(lowerObject());
         }
         else
         {
-            answerFeedback.text = "Wrong :(";
+            answerFeedback.text = "To b³êdna odpowiedŸ";
         }
     }
 

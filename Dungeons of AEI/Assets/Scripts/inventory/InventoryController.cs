@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Drawing;
-using UnityEditor.ShaderGraph.Drawing.Inspector.PropertyDrawers;
+//using UnityEditor.ShaderGraph.Drawing.Inspector.PropertyDrawers;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -45,6 +45,11 @@ public class InventoryController : MonoBehaviour
     private void Start()
     {
         sound = GetComponent<AudioSource>();
+    }
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+            Application.Quit();
     }
     private void OnEnable()
     {

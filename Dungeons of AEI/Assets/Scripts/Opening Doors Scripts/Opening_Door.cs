@@ -20,7 +20,12 @@ public class Opening_Door : MonoBehaviour
 
     private bool alreadyOpened = false;
     private string PLAYER_TAG = "Player";
+    private AudioSource sound;
 
+    private void Start()
+    {
+        sound = GetComponent<AudioSource>();
+    }
 
     //Detect collision with player
     public void OnTriggerStay(Collider collider)
@@ -35,6 +40,7 @@ public class Opening_Door : MonoBehaviour
     //fluently opens the door
     private void OpenGateStart()
     {
+        sound.Play();
         StartCoroutine(openGate());
     }
     IEnumerator openGate()
