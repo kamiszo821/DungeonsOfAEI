@@ -15,8 +15,16 @@ public class ScoreController : MonoBehaviour
     public Text scoreText;
 
 
+    private AudioSource sound;
+
+
+    private void Start()
+    {
+        sound = GetComponent<AudioSource>();
+    }
     private void Awake()
     {
+
         if (instance == null)
         {
             instance = this;
@@ -45,6 +53,7 @@ public class ScoreController : MonoBehaviour
     public void AddScore()
     {
         score++;
+        sound.Play();
     }
 
     //update actual score on scoreboard
